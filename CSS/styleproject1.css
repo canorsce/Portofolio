@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 0;
+    margin: 0;
+}
+    /*Nav*/
+.nav-ul.hide-ul{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+
+}
+
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 3rem;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    background-color: white;
+
+}
+#Logo{
+    width: 50px;
+    position: absolute;
+    margin-right: 1400px;
+}
+#Logo img{
+    height: 50px;
+}
+
+#nav-container > nav > ul{
+    list-style-type: none;
+ 
+}
+
+#nav-background {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    z-index: 999;
+}
+
+    
+#nav-container > nav > ul{
+    list-style-type: none;
+
+}
+    
+#nav-background {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    z-index: 999;
+}
+.Portofolio{
+    margin-left: 0px;
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+.header h1{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+img{
+    max-width: 400px;
+    border-radius: 20px;
+}

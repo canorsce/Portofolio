@@ -1,0 +1,250 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+
+.container{
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5rem;
+    
+}
+
+.block {
+    padding: 15px;
+    text-align: left;
+    color: white;
+}
+    /*Header*/
+.row .col-sm-12 h1{
+    color:black;
+    margin-left: 370px;
+    margin-bottom: 100px;
+    margin-top: 90px;
+    background-color: white;
+    font-size: 60px;
+    margin-left: 600px;
+}
+
+    /*Nav*/
+.nav-ul.hide-ul{
+    display: flex;
+    flex-direction: row-reverse;
+    text-decoration: none;
+
+}
+
+.nav-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-right: 3rem;
+    transition: 1s;
+}
+
+.nav-link:hover{
+    background-color: white;
+
+}
+#Logo{
+    width: 50px;
+    position: absolute;
+    margin-right: 1400px;
+}
+#Logo img{
+    height: 50px;
+}
+
+.nav-container > nav > ul{
+    list-style-type: none;
+ 
+}
+
+.nav-background {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgb(39, 39, 39);
+    z-index: 999;
+}
+    /*projecten*/
+
+#Projecten{
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+    width: 100%;
+    margin: 0;
+}
+.row .col-sm-12 h2{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+}
+
+.projecten{
+    background-color: rgb(189, 189, 189);
+}
+
+.project{
+    width:100%;
+    min-height: 500px;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    margin-left: 185px;
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgb(189, 189, 189);
+}
+
+.box .imgbox{
+    position: relative;
+}
+
+.box .imgbox img{
+    max-width: 100%;
+    transition-duration: 1s;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box .imgbox:hover img{
+    transform: scale(1.2)
+}
+
+.box .imgbox .decoratie{
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    background: rgba(0,0,0,.8);
+    transform:scaleY(0);
+    transition-duration: 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.box .imgbox:hover .decoratie{
+    transform:scaleY(1);
+}
+
+.box .imgbox .decoratie .content{
+    position: absolute;
+    -ms-transform-origin-y: (100%);
+    padding: 15px;
+}
+
+.box .imgbox .decoratie h1{
+    color: rgb(255, 255, 255);
+}
+
+.box .imgbox .decoratie p{
+    color:gray;
+}
+    
+/*About me*/
+
+#About-me.row{
+    background-image: url("../IMG/161326.jpg");
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+}
+
+#Text_aboutme{
+    margin-right: 100px;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#Text_aboutme h2{
+    font-size: 35px;
+}
+.img-gezicht img{
+    max-width: 250px;
+    margin-left: 50px;
+    margin-bottom: 200px;
+    margin-top: 80px;
+    border-radius: 150px;
+    padding-left: 0;
+}
+/*CV*/
+
+#CV.row{
+    background-color:rgb(68, 68, 68);
+    width: 100%;
+    margin: 0;
+}
+.Text_CV{
+    margin-right: 100px;
+    margin-left: 350px;
+    margin-top: 50px;
+    color: white;
+}
+.Text_CV h2{
+    font-size: 35px;
+}
+#CV-button{
+    background-color: #000000;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#CV-button:hover{
+    background-color: grey;
+}
+
+#Docimg{
+    max-width: 200px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+/*Contact*/
+
+#Contact.row{
+    background-color: rgb(39, 39, 39);
+    width: 100%;
+    margin: 0;
+}
+
+.Contacttext{
+    margin-right: 100px;
+    margin-left: 350px;
+    color: white;
+}
+.Contacttext h2{
+    font-size: 35px;
+}
+
+.Git img{
+    max-width: 50px;
+    margin-top: 10px;
+}
+
+.number img{
+    display: inline-block;
+    max-width: 50px;
+}
+.number{
+    color: white;
+}
+    

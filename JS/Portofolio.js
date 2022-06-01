@@ -9,3 +9,4 @@ window.addEventListener("scroll", function(e_){
     let offset = window.pageYOffset;
     Aboutme.style.backgroundPositionY = offset * 0.7 + "px"
 });
+

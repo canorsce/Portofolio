@@ -77,7 +77,6 @@ body{
     margin-top: 80px;
 }
 .content{
-    display: flex;
     flex-direction: row;
     text-align: center;
     padding-left: 200px;
